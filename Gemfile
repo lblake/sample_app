@@ -19,5 +19,10 @@ group :development do
 group :test do
 	gem 'rspec'
 	gem 'webrat'
+	gem 'spork'
+	gem 'autotest'
+	gem 'autotest-growl'
+	gem 'autotest-fsevent'
+	gem 'autotest-rails-pure'
 end
 
