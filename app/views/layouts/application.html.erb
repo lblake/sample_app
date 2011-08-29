@@ -10,6 +10,7 @@
       <%= render 'layouts/header' %>
       <section class="round">
         <%= yield %>
+		<%= debug(params) if Rails.env.evelopment?%>
       </section>
       <%= render 'layouts/footer' %>
     </div>
