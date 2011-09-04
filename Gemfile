@@ -25,5 +25,6 @@ group :test do
 	gem 'autotest-growl'
 	gem 'autotest-fsevent'
 	gem 'autotest-rails-pure'
+	gem 'factory_girl_rails'
 end
 
